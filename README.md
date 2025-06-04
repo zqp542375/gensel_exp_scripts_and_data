@@ -1,4 +1,4 @@
-## Gensel Artifacts##
+## Gensel Artifacts ##
 
 The artifacts related to Gensel is organized based on the 4 research questions.
 
