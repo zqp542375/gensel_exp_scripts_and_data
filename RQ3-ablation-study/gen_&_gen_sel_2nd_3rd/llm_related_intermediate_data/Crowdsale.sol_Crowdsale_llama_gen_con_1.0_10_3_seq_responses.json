@@ -1,0 +1,36 @@
+{
+    "Crowdsale.sol_Crowdsale_sequence_iter_1": {
+        "refund": [],
+        "withdraw": [
+            "invest",
+            "setPhase"
+        ],
+        "invest": []
+    },
+    "Crowdsale.sol_Crowdsale_sequence_iter_2": {
+        "refund": [
+            "invest",
+            "setPhase",
+            "invest",
+            "refund"
+        ],
+        "withdraw": [
+            "invest",
+            "invest",
+            "setPhase",
+            "withdraw"
+        ],
+        "invest": [
+            "setOwner",
+            "invest"
+        ]
+    },
+    "Crowdsale.sol_Crowdsale_sequence_iter_3": {
+        "refund": [
+            "setPhase",
+            "invest",
+            "invest",
+            "refund"
+        ]
+    }
+}

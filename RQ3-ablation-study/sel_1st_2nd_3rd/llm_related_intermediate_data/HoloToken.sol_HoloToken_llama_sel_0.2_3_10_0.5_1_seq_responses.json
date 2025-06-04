@@ -1,0 +1,72 @@
+{
+    "HoloToken.sol_HoloToken_sequence_iter_1": {
+        "transferFrom": [
+            "setMinter",
+            "increaseApproval",
+            "transferFrom"
+        ],
+        "mint": [
+            "setMinter",
+            "mint"
+        ],
+        "burn": [
+            "setDestroyer",
+            "burn"
+        ],
+        "transfer": [
+            "setDestroyer",
+            "transfer"
+        ],
+        "approve": [
+            "setMinter",
+            "increaseApproval",
+            "approve"
+        ],
+        "finishMinting": [
+            "setMinter",
+            "finishMinting"
+        ],
+        "decreaseApproval": [
+            "setMinter",
+            "increaseApproval",
+            "decreaseApproval"
+        ]
+    },
+    "HoloToken.sol_HoloToken_sequence_iter_2": {
+        "transferFrom": [
+            "setMinter",
+            "finishMinting",
+            "transferFrom"
+        ],
+        "transfer": [
+            "setMinter",
+            "finishMinting",
+            "transfer"
+        ],
+        "approve": [
+            "setMinter",
+            "increaseApproval",
+            "decreaseApproval",
+            "approve"
+        ],
+        "burn": [
+            "setMinter",
+            "setDestroyer",
+            "burn"
+        ]
+    },
+    "HoloToken.sol_HoloToken_sequence_iter_3": {
+        "approve": [
+            "setMinter",
+            "increaseApproval",
+            "finishMinting",
+            "approve"
+        ],
+        "burn": [
+            "setMinter",
+            "finishMinting",
+            "setDestroyer",
+            "burn"
+        ]
+    }
+}

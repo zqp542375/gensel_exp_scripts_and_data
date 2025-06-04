@@ -1,0 +1,123 @@
+{
+    "0x899f4ee077f83a7747e4ccec8ee7aa74831a1de3.sol_USMT_sequence_iter_1": {
+        "changeFeePool": [
+            "setFeePool",
+            "changeFeePool"
+        ],
+        "transfer": [
+            "mint",
+            "transfer"
+        ],
+        "feePoolTransfer": [
+            "setFeePool",
+            "feePoolTransfer"
+        ],
+        "transferFrom": [
+            "approve",
+            "transferFrom"
+        ],
+        "approve": [
+            "mint",
+            "approve"
+        ],
+        "increaseAllowance": [
+            "approve",
+            "increaseAllowance"
+        ],
+        "decreaseAllowance": [
+            "approve",
+            "decreaseAllowance"
+        ],
+        "burnFrom": [
+            "mint",
+            "burnFrom"
+        ]
+    },
+    "0x899f4ee077f83a7747e4ccec8ee7aa74831a1de3.sol_USMT_sequence_iter_2": {
+        "transfer": [
+            "setFeePool",
+            "changeFeePool",
+            "mint",
+            "transfer"
+        ],
+        "transferFrom": [
+            "approve",
+            "transferOwnership",
+            "transferFrom"
+        ],
+        "feePoolTransfer": [
+            "setFeePool",
+            "changeFeePool",
+            "mint",
+            "feePoolTransfer"
+        ],
+        "approve": [
+            "mint",
+            "setTxFee",
+            "approve"
+        ],
+        "increaseAllowance": [
+            "approve",
+            "setTxFee",
+            "increaseAllowance"
+        ],
+        "decreaseAllowance": [
+            "approve",
+            "setFeePool",
+            "decreaseAllowance"
+        ],
+        "burnFrom": [
+            "setFeePool",
+            "changeFeePool",
+            "mint",
+            "burnFrom"
+        ]
+    },
+    "0x899f4ee077f83a7747e4ccec8ee7aa74831a1de3.sol_USMT_sequence_iter_3": {
+        "transfer": [
+            "setFeePool",
+            "changeFeePool",
+            "mint",
+            "transfer",
+            "transfer"
+        ],
+        "transferFrom": [
+            "setFeePool",
+            "changeFeePool",
+            "mint",
+            "transferFrom"
+        ],
+        "feePoolTransfer": [
+            "setFeePool",
+            "changeFeePool",
+            "mint",
+            "feePoolTransfer",
+            "feePoolTransfer"
+        ],
+        "approve": [
+            "mint",
+            "setTxFee",
+            "approve",
+            "approve"
+        ],
+        "increaseAllowance": [
+            "approve",
+            "setTxFee",
+            "increaseAllowance",
+            "increaseAllowance"
+        ],
+        "decreaseAllowance": [
+            "approve",
+            "setFeePool",
+            "decreaseAllowance",
+            "decreaseAllowance"
+        ],
+        "burnFrom": [
+            "setFeePool",
+            "changeFeePool",
+            "mint",
+            "burnFrom",
+            "burnFrom"
+        ]
+    }
+}

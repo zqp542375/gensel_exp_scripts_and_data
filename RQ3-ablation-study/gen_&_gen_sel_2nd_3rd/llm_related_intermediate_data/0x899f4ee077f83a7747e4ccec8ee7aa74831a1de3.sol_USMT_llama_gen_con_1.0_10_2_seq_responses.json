@@ -1,0 +1,105 @@
+{
+    "0x899f4ee077f83a7747e4ccec8ee7aa74831a1de3.sol_USMT_sequence_iter_1": {
+        "changeFeePool": [
+            "setFeePool",
+            "changeFeePool"
+        ],
+        "transfer": [
+            "mint",
+            "transfer"
+        ],
+        "feePoolTransfer": [
+            "setFeePool",
+            "feePoolTransfer"
+        ],
+        "transferFrom": [
+            "approve",
+            "transferFrom"
+        ],
+        "approve": [
+            "mint",
+            "approve"
+        ],
+        "increaseAllowance": [
+            "approve",
+            "increaseAllowance"
+        ],
+        "decreaseAllowance": [
+            "approve",
+            "decreaseAllowance"
+        ],
+        "burnFrom": [
+            "mint",
+            "burnFrom"
+        ]
+    },
+    "0x899f4ee077f83a7747e4ccec8ee7aa74831a1de3.sol_USMT_sequence_iter_2": {
+        "transfer": [
+            "setTxFee",
+            "transfer"
+        ],
+        "transferFrom": [
+            "transfer",
+            "transferFrom"
+        ],
+        "feePoolTransfer": [
+            "setFeePool",
+            "mint",
+            "feePoolTransfer"
+        ],
+        "approve": [
+            "burn",
+            "approve"
+        ],
+        "increaseAllowance": [
+            "transfer",
+            "increaseAllowance"
+        ],
+        "decreaseAllowance": [
+            "transfer",
+            "decreaseAllowance"
+        ],
+        "burnFrom": [
+            "transfer",
+            "burnFrom"
+        ]
+    },
+    "0x899f4ee077f83a7747e4ccec8ee7aa74831a1de3.sol_USMT_sequence_iter_3": {
+        "transfer": [
+            "mint",
+            "transfer",
+            "transfer"
+        ],
+        "transferFrom": [
+            "mint",
+            "approve",
+            "transferFrom"
+        ],
+        "feePoolTransfer": [
+            "setFeePool",
+            "mint",
+            "transfer",
+            "feePoolTransfer"
+        ],
+        "approve": [
+            "mint",
+            "burn",
+            "approve"
+        ],
+        "increaseAllowance": [
+            "mint",
+            "approve",
+            "increaseAllowance"
+        ],
+        "decreaseAllowance": [
+            "mint",
+            "approve",
+            "decreaseAllowance"
+        ],
+        "burnFrom": [
+            "mint",
+            "transfer",
+            "burnFrom"
+        ]
+    }
+}
